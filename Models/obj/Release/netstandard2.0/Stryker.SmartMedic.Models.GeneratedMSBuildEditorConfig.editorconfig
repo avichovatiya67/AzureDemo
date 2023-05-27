@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = Stryker.SmartMedic.Models
+build_property.ProjectDir = D:\stryker\stryker-smartmedic-nsa-azurefunction-v4-679472c42e63\Models\

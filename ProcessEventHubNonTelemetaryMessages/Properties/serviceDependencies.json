@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "signalr1": {
+      "type": "signalr",
+      "connectionId": "AzureSignalRConnectionString"
+    }
+  }
+}

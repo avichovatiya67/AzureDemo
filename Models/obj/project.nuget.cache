@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "uQpjJ8li7MnBNh8hCFMYgcHoPStJN3Rqw5/56PH72NCY+un6h9zATnSt+dyW2zpE/aU3tMvoa81+C+XIxGK7SA==",
+  "success": true,
+  "projectFilePath": "D:\\stryker\\stryker-smartmedic-nsa-azurefunction-v4-679472c42e63\\Models\\Stryker.SmartMedic.Models.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\avinash.chovatiya\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\avinash.chovatiya\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\avinash.chovatiya\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

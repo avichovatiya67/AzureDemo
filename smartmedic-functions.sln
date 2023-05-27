@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BedSide_API_Functions", "BedSide_API_Functions\BedSide_API_Functions.csproj", "{FCC89B8A-F535-48BF-BC00-9B26014BBD9D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventHubInsertTelemetary", "InsertTelemetary\EventHubInsertTelemetary.csproj", "{F3E2892D-A84F-491C-9D4E-9664D70FF05C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stryker.SmartMedic.Models", "Models\Stryker.SmartMedic.Models.csproj", "{C1D527D0-E6FD-4353-8770-63E2498D2EB6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonTelemetaryMessageProcessors", "ProcessEventHubNonTelemetaryMessages\NonTelemetaryMessageProcessors.csproj", "{F3BF6B3E-E49B-4262-B46B-F9BA0FF5ADE5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FCC89B8A-F535-48BF-BC00-9B26014BBD9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCC89B8A-F535-48BF-BC00-9B26014BBD9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCC89B8A-F535-48BF-BC00-9B26014BBD9D}.Debug|x86.ActiveCfg = Debug|x86
+		{FCC89B8A-F535-48BF-BC00-9B26014BBD9D}.Debug|x86.Build.0 = Debug|x86
+		{FCC89B8A-F535-48BF-BC00-9B26014BBD9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCC89B8A-F535-48BF-BC00-9B26014BBD9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCC89B8A-F535-48BF-BC00-9B26014BBD9D}.Release|x86.ActiveCfg = Release|x86
+		{FCC89B8A-F535-48BF-BC00-9B26014BBD9D}.Release|x86.Build.0 = Release|x86
+		{F3E2892D-A84F-491C-9D4E-9664D70FF05C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3E2892D-A84F-491C-9D4E-9664D70FF05C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3E2892D-A84F-491C-9D4E-9664D70FF05C}.Debug|x86.ActiveCfg = Debug|x86
+		{F3E2892D-A84F-491C-9D4E-9664D70FF05C}.Debug|x86.Build.0 = Debug|x86
+		{F3E2892D-A84F-491C-9D4E-9664D70FF05C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3E2892D-A84F-491C-9D4E-9664D70FF05C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3E2892D-A84F-491C-9D4E-9664D70FF05C}.Release|x86.ActiveCfg = Release|x86
+		{F3E2892D-A84F-491C-9D4E-9664D70FF05C}.Release|x86.Build.0 = Release|x86
+		{C1D527D0-E6FD-4353-8770-63E2498D2EB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1D527D0-E6FD-4353-8770-63E2498D2EB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1D527D0-E6FD-4353-8770-63E2498D2EB6}.Debug|x86.ActiveCfg = Debug|x86
+		{C1D527D0-E6FD-4353-8770-63E2498D2EB6}.Debug|x86.Build.0 = Debug|x86
+		{C1D527D0-E6FD-4353-8770-63E2498D2EB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1D527D0-E6FD-4353-8770-63E2498D2EB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1D527D0-E6FD-4353-8770-63E2498D2EB6}.Release|x86.ActiveCfg = Release|x86
+		{C1D527D0-E6FD-4353-8770-63E2498D2EB6}.Release|x86.Build.0 = Release|x86
+		{F3BF6B3E-E49B-4262-B46B-F9BA0FF5ADE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3BF6B3E-E49B-4262-B46B-F9BA0FF5ADE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3BF6B3E-E49B-4262-B46B-F9BA0FF5ADE5}.Debug|x86.ActiveCfg = Debug|x86
+		{F3BF6B3E-E49B-4262-B46B-F9BA0FF5ADE5}.Debug|x86.Build.0 = Debug|x86
+		{F3BF6B3E-E49B-4262-B46B-F9BA0FF5ADE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3BF6B3E-E49B-4262-B46B-F9BA0FF5ADE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3BF6B3E-E49B-4262-B46B-F9BA0FF5ADE5}.Release|x86.ActiveCfg = Release|x86
+		{F3BF6B3E-E49B-4262-B46B-F9BA0FF5ADE5}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B322E3A3-E484-445C-A881-92B871D5F76B}
+	EndGlobalSection
+EndGlobal
